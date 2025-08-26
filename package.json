@@ -23,7 +23,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
-    "medisearch:cli": "node scripts/medisearch-cli.cjs"
+    "medisearch:cli": "node scripts/medisearch-cli.cjs",
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
